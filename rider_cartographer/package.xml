@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rider_cartographer</name>
+  <version>0.0.2</version>
+  <description>ROS 2 Project : rider_cartographer</description>
+  <maintainer email="doney0222@naver.com">Sung</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
