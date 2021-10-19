@@ -128,7 +128,7 @@
     </collision>
   </link>
 
-  <joint name="joint_name" type="fixed">
+  <joint name="caster_joint" type="fixed">
     <origin xyz="-0.081 0.0 -0.004" rpy="0.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="caster_link"/>
@@ -197,4 +197,5 @@
     <child link="lds_link" />
     <axis xyz="0 0 0" />
   </joint>
+
 </robot>
